@@ -1,8 +1,8 @@
 var delayPerPhoto = 10;
 
 function jsonFlickrApi(data) {
-    var photos = data.photos.photo;
-    photos.sort(function() {return 0.5 - Math.random()});
+    data.photos.photo.sort(function() {return 0.5 - Math.random()});
+    var photos = data.photos.photo.splice(0, 120);
     for (var i = 0; i < photos.length; i++) {
         var photo = photos[i];
         var url = "http://farm"+photo.farm+".staticflickr.com/"+photo.server+
