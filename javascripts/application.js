@@ -34,6 +34,10 @@ function jsonFlickrApi(data) {
 }
 
 $(document).ready(function() {
+    if (screenfull.enabled) {
+        screenfull.request();
+    }
+
     $.getScript("https://api.flickr.com/services/rest/?method=flickr.interestingness.getList&api_key=a26f5c4f6af0b638313633142821e3eb&format=json&per_page=500");
     $('body').click(function() {
         location.href = link;
