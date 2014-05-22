@@ -326,3 +326,12 @@ p.codrops-demos a.current-demo:hover{
 @media screen and (max-width: 600px) { 
     .cb-slideshow li div h3 { font-size: 80px }
 }
+
+.fullscreen {
+  background: url('/images/fullscreen.png') 50% 50% no-repeat;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+}
