@@ -38,7 +38,7 @@ $(document).ready(function() {
 
 $('.fullscreen').click(function(event) {
     if (screenfull.enabled) {
-        screenfull.request();
+        screenfull.toggle();
     }
     event.preventDefault();
     return false;
