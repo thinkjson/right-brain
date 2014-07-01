@@ -1,0 +1,22 @@
+{
+  "name": "right-brain",
+  "version": "0.0.0",
+  "homepage": "https://github.com/thinkjson/right-brain",
+  "authors": [
+    "Mark Cahill <mark@thinkjson.com>"
+  ],
+  "description": "a photo slideshow of images from the Flickr interestingness API aimed at stimulating your right brain",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "screenfull": "~1.2.1"
+  }
+}
